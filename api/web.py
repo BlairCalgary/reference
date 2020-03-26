@@ -111,8 +111,8 @@ def load():
 	print("data1:", data)
 	with open('data.json') as json_file:
 		data = json.load(json_file)
-		for d in data:
-			print('Record: ', d)
+		for x in data:
+			print('Record: ', x)
 	print("data2:", data)
 	return "<h1>EvolveU test</h1> <h2>" + str(len(data)) + " records Loaded</h2>"
 
@@ -120,7 +120,7 @@ def load():
 @app.route("/save", methods = ['GET'])
 def save():
 	global data
-	with open('data.json', 'w') as outfile:
+	with open('data2.json', 'w') as outfile:
 		json.dump(data, outfile)
 	return "<h1>EvolveU test</h1> <h2>" + str(len(data)) + " records Saved</h2>"
 

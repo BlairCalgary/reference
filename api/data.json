@@ -1,5 +1,1 @@
-{
-    "1": { "key": 1, "city": "Calgary", "lat": 51.05, "long": -114.05 },
-    "2": { "key": 2, "city": "Edmonton", "lat": 53.55, "long": -113.49 },
-    "3": { "key": 3, "city": "Red Deer", "lat": 52.28, "long": -113.81 }
-}
+{"1": {"key": "1", "name": "Calgary", "latitude": "51.03", "longitude": "-114.37", "population": "1285711"}, "2": {"key": "2", "name": "Yellowknife", "latitude": "62.47", "longitude": "-114.54", "population": "19569"}, "3": {"key": "3", "name": "Salt Lake City", "latitude": "40.78", "longitude": "-112.06", "population": "200544"}, "4": {"key": "4", "name": "M\u00e9rida", "latitude": "20.98", "longitude": "-89.77", "population": "892363"}, "5": {"key": "5", "name": "Bogota", "latitude": "4.65", "longitude": "-74.25", "population": "7413000"}, "6": {"key": "6", "name": "Buenos Aires", "latitude": "-34.62", "longitude": "-58.58", "population": "2890000"}, "7": {"key": "7", "name": "Warsaw", "latitude": "52.23", "longitude": "20.78", "population": "1708000"}}
